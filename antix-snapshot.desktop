@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=antiX Snapshot
+Comment= Create a live CD snapshot of your system.
+Exec=gksu antixsnapshot-gui
+Terminal=false
+Type=Application
+Icon=system
+Categories=GNOME;GTK;System;

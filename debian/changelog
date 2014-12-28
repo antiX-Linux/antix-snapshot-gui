@@ -1,0 +1,114 @@
+antix-snapshot-gui (0.2.8) unstable; urgency=low 
+ 
+  * Packaged using dpkg-buildpackage.
+  * xz compressed deb.
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 19 Oct 2013 12:10:00 +0200
+
+
+antix-snapshot-gui (0.2.7) unstable; urgency=low 
+ 
+  * Changed ownership to root;root.
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 05 June 2013 00:01:00 +0200
+
+
+antix-snapshot-gui (0.2.6) unstable; urgency=low 
+ 
+  * create /etc/udev/rules.d/90-fstab-automount.rules.live if it does not exist.
+
+ -- anticapitalista <antiX@operamail.com>  Mon, 15 Apr 2013 00:15:00 +0200
+
+
+antix-snapshot-gui (0.2.5) unstable; urgency=low
+ 
+  * Added localisation.
+
+ -- anticapitalista <antiX@operamail.com>  Tue, 09 Apr 2013 16:35:00 +0200
+
+
+antix-snapshot-gui (0.2.4) unstable; urgency=low
+ 
+  * Added make-fstab, buildfstab.
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 09 February 2013 14:55:00 +0200
+
+
+antix-snapshot-gui (0.2.3) unstable; urgency=low
+ 
+  * Added persistence options.
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 14 December 2012 14:25:00 +0200
+
+
+antix-snapshot-gui (0.2.2) unstable; urgency=low
+ 
+  * Moved modules out of initrd.gz.
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 04 November 2012 20:45:00 +0200
+
+
+antix-snapshot-gui (0.2.1) unstable; urgency=low
+ 
+  * gksu replaces ktsuss.
+  * updated script.
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 31 October 2012 23:45:00 +0200
+
+
+antix-snapshot-gui (0.2.0) unstable; urgency=low
+ 
+  * ktsuss replaces gksu.
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 23 September 2012 15:40:00 +0200
+
+
+antix-snapshot-gui (0.1.1.6) unstable; urgency=low
+ 
+  * Fixed ownership bug.
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 26 August 2012 15:40:00 +0200
+
+
+antix-snapshot-gui (0.1.1.5) unstable; urgency=low 
+ 
+  * Added changes to copyright.
+
+ -- anticapitalista <antiX@operamail.com>  Thu, 19 July 2012 12:10:00 +0200
+
+
+antix-snapshot-gui (0.1.1.4) unstable; urgency=low 
+ 
+  * Added fixed width to yad.
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 15 July 2012 12:10:00 +0200
+
+
+antix-snapshot-gui (0.1.1.3) unstable; urgency=low 
+ 
+  * Changed work_dir="/home/work
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 09 May 2012 18:10:00 +0200
+
+
+antix-snapshot-gui (0.1.1.2) unstable; urgency=low 
+ 
+  * Edited /etc/antixsnapshot.conf and antixsnapshot so work_dir="/root/work and save_work="no". Needed for new /etc/default/rcS.
+
+ -- anticapitalista <antiX@operamail.com>  Tues, 06 March 2012 14:10:00 +0200
+
+
+antix-snapshot-gui (0.1.1.1) unstable; urgency=low 
+ 
+  * Added information to copyright and changed errors in antixsnapshot.
+  * antix-snapshot.desktop calls antixsnapshot-gui (bug fix).
+
+ -- anticapitalista <antiX@operamail.com>  Thu, 02 March 2012 21:20:00 +0200
+
+
+antix-snapshot-gui (0.1.1) unstable; urgency=low 
+ 
+  * Initial Release.
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 29 January 2012 15:30:00 +0200
+

@@ -1,0 +1,15 @@
+Source: antix-snapshot-gui
+Section: antix
+Priority: optional
+Maintainer: anticapitalista <antiX@operamail.com>
+Build-Depends: debhelper (>= 9.20120115)
+Standards-Version: 3.9.4
+Homepage: http://antix.mepis.org
+
+Package: antix-snapshot-gui
+Architecture: all
+Depends: bash, rsync, squashfs-tools, genisoimage, yad, antix-snapshot-cli
+Description: Tool to create a live-CD from the running system
+ antiX Snapshot copies the running system, squashes the copy and
+ makes an iso image file, which can be used to create a customized
+ live-CD.
