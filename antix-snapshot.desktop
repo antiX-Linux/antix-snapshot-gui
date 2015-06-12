@@ -5,5 +5,5 @@ Comment= Create a live CD snapshot of your system.
 Exec=gksu antixsnapshot-gui
 Terminal=false
 Type=Application
-Icon=system
+Icon=remastersys.png
 Categories=GNOME;GTK;System;

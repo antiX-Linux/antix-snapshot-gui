@@ -1,3 +1,4 @@
-antix-snapshot.desktop  /usr/share/applications/antix
+antix-snapshot.desktop /usr/share/applications/antix
 changelog.gz           /usr/share/doc/antix-snapshot-gui
 copyright              /usr/share/doc/antix-snapshot-gui
+remastersys.png        /usr/share/pixmaps
